@@ -10,4 +10,5 @@ main.post('/token',mainController.getToken);
 main.post('/login',authenticate,mainController.login);
 main.post('/signup',signup);
 
+main.post('/saveUsers',mainController.saveUsers);
 export default main;
