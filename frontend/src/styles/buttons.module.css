@@ -1,0 +1,15 @@
+.next {
+    background-color: rgb(237, 253, 252);
+    display: flex;
+    width: 6rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    transition: transform 0.2s ease-in-out;
+    
+}
+
+.next:hover{
+    transform: scale(1.2);
+}

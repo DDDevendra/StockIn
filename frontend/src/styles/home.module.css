@@ -1,0 +1,35 @@
+
+.body{
+    font-family: "Tagesschrift", system-ui;
+}
+
+
+.root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.play{
+    background-image: url('../resources/icons/playButton.png');
+    background-size: contain;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 5%;
+    margin: 2rem 0rem;
+    transition: transform 0.8s ease-in-out, box-shadow 0.8s ease-in-out, background-image 0.8s ease-in-out;
+    box-shadow: 0px 0px 10px 7px #f0f0f0;
+}
+
+.play:hover{
+    box-shadow: 0px 0px 10px 7px #d6d6d6;
+    background-image: url('../resources/icons/pausBtn.png');
+    transform: scale(1.2);
+}
+
+.letsPlay{
+    font-family: "Tagesschrift", system-ui;
+}
